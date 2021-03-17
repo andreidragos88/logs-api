@@ -13,8 +13,6 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res, next) => {
-    let filePath = path.join(__dirname, 'logs.csv');
-
     try {
         req.db = [];
 
